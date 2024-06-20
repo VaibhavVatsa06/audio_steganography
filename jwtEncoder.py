@@ -111,8 +111,8 @@ def decode_message_from_audio_with_jwt(audio_path, secret):
 # print(f"Decoded message: {decoded_message}")
 
 # Encode a message into an audio file
-# encode_message_in_audio_with_jwt('input_audio.opus', 'MadarChodd', 'BhenKaLand', 'encoded_audio.wav')
+# encode_message_in_audio_with_jwt('input_audio.opus', 'hello', 'hola', 'encoded_audio.wav')
 
 # Decode a message from an audio file
-decoded_message = decode_message_from_audio_with_jwt('encoded_audio.wav', 'BhenKaLand')
+decoded_message = decode_message_from_audio_with_jwt('encoded_audio.wav', 'hola')
 print(f"Decoded message: {decoded_message}")
